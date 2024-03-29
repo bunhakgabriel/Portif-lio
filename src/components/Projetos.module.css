@@ -1,0 +1,141 @@
+#projetos{
+    padding: 10px;
+    margin-top: 150px;
+}
+
+#projetos h1{
+    text-align: center;
+    margin-bottom: 40px;
+    color: crimson;
+    font-size: 2.5em;
+}
+
+#financasProject{
+    margin-left: 3%;
+}
+
+#spotifyProject{
+    margin-left: 30%;
+}
+
+#agendaProject{
+    margin-left: 3%;
+}
+
+#secretWordProject{
+    margin-left: 30%;
+}
+
+
+
+#financasProject,
+#spotifyProject,
+#secretWordProject,
+#agendaProject{
+    box-shadow: 2px 5px 5px rgba(0, 0, 0, 0.5);
+    padding: 50px;
+    width: 900px;
+    margin-top: 100px;
+    margin: 100px auto;
+    display: flex;
+    justify-content: center;
+    column-gap: 20px;
+}
+
+.financasImg,
+.spotifyImg,
+.secretWordImg,
+.agendaImg{
+    width: 45%;
+    height: 250px;
+}
+
+.financasImg img,
+.spotifyImg img,
+.secretWordImg img,
+.agendaImg img{
+    width: 100%;
+    height: 100%;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+}
+
+.conteudoFinancas,
+.conteudoSpotify,
+.conteudoSecretWord,
+.conteudoAgenda{
+    width: 45%;
+}
+
+.conteudoFinancas p,
+.conteudoSpotify p{
+    font-size: 1.1em;
+    color: black;
+}
+
+.icones{
+    margin-top: 20px;
+    font-size: 1.6em;
+    color: black;
+    color: crimson;
+    font-weight: 600;
+}
+
+.icones :nth-child(1),
+.icones :nth-child(2),
+.icones :nth-child(3){
+    margin-right: 20px;
+}
+
+.deploy{
+    margin-top: 25px;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    column-gap: 20px;
+}
+
+.deploy :nth-child(2){
+    width: 60px;
+    height: 60px;
+}
+
+.deploy a{
+    text-decoration: none;
+    color: black;
+    box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.5);
+    padding: 8px;
+    height: 50px;
+    font-size: 1.3em;
+    border-radius: 10px;
+}
+
+.deploy a:hover{
+    color: white;
+    color: black;
+    border: 1px solid black;
+    cursor: pointer;
+    transition: 500ms;
+}
+
+.projectRightHidden{
+    filter: blur(15px);
+    transform: translateX(-110%);
+}
+
+.projectRightShow{
+    filter: blur(0px);
+    transform: translateX(0%);
+    transition: 1s;
+}
+
+.projectLeftHidden{
+    filter: blur(15px);
+    transform: translateX(110%);
+}
+
+.projectLeftShow{
+    filter: blur(0px);
+    transform: translateX(0%);
+    transition: 1s;
+}
+

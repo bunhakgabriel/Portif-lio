@@ -17,6 +17,7 @@
 .typewiter{
     height: 170px;
     color: white;
+    color: black;
     text-align: center;
     font-size: 3.5em;
     width: 700px;
@@ -28,8 +29,8 @@
 }
 
 .textBlack{
-    color: crimson;
     color: black;
+    color: crimson;
 }
 
 .redesSociais{

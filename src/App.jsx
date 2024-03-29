@@ -5,6 +5,7 @@ import Home from './components/Home'
 import Nav from './components/Nav'
 import SobreMin from './components/SobreMin'
 import Habilidades from './components/Habilidades'
+import Projetos from './components/Projetos'
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <Home />
       <SobreMin /> 
       <Habilidades />
+      <Projetos />
     </div>
   )
 }
