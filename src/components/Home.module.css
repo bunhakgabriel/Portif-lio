@@ -17,6 +17,7 @@
 .typewiter{
     height: 170px;
     color: white;
+    color: black;
     text-align: center;
     font-size: 3.5em;
     width: 700px;
@@ -28,8 +29,8 @@
 }
 
 .textBlack{
-    color: crimson;
     color: black;
+    color: crimson;
 }
 
 .redesSociais{
@@ -40,11 +41,11 @@
 }
 
 .containerIcons{
+    border: 1px solid black;
     display: flex;
     justify-content: center;
     column-gap: 10px;
     width: 170px;
-    border: 1px solid black;
     border-radius: 10px;
 }
 
@@ -59,7 +60,56 @@
     font-size: 3.5em;
 }
 
+@media (max-width: 700px){
 
-.teste{
-    border: 1px solid green;
+    .typewiter{
+        font-size: 3em;
+        height: 150px;
+        width: 100vw;
+    }
+
+}
+
+@media (max-width: 570px){
+
+    .typewiter{
+        font-size: 2.5em;
+        height: auto;
+    }
+
+}
+
+@media (max-width: 475px){
+
+    .typewiter{ font-size: 2em; }
+    .containerIcons{ width: 150px; }
+    .icons{ font-size: 3em; }
+
+    .redesSociais{
+        flex-direction: column;
+        align-items: center;
+        row-gap: 15px;
+        width: 100vw;
+    }
+    
+    .containerIcons p{
+        padding: 9px 0px;
+        font-size: 1.2em;
+    }
+
+}
+
+@media (max-width: 380px){
+
+    .typewiter{ font-size: 1.6em; }
+    .containerIcons{ width: 130px; }
+    .icons{ font-size: 2em; }
+    .redesSociais{ row-gap: 5px; }
+    .home{ row-gap: 10px; }
+
+    .containerIcons p{
+        padding: 6px 0px;
+        font-size: 1em;
+    }
+
 }

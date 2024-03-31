@@ -3,6 +3,7 @@
 .habilidades{
     border: 0px solid red;
     margin: 100px auto;
+    display: none;
 }
 
 .habilidades h1{
