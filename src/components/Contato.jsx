@@ -7,7 +7,7 @@ const Contato = () => {
         <h1>Contatos</h1>
 
         <div className={styles.divIconesContato} >
-            <a href="">            
+            <a href="https://api.whatsapp.com/send?phone=5541996729097">            
                 <div className={styles.icones} >
                     <FaPhone size={40} />
                     <h3>Telefone</h3>

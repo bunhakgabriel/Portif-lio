@@ -88,7 +88,7 @@ const Projetos = () => {
 
         <div id={styles.agendaProject} className={ scroll2 ? styles.projectRightShow : styles.projectRightHidden } >
             <div className={styles.agendaImg} >
-                <img src="./agenda.jpeg" alt="" />
+                <img src="./renderAgendaNode.jpeg" alt="" />
             </div>
 
             <div className={styles.conteudoAgenda} >  
