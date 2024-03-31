@@ -15,12 +15,14 @@ const SobreMin = () => {
   return (
     <section id={styles.sobreMin} className={ scrolls ? styles.show : styles.hidden } >
 
+        <h1 className={styles.displayNone} >Sobre mim</h1>
+
         <div id={styles.imagem} className={ scrolls ? styles.show : styles.hidden } >
             <img src="./sobreMin.png" alt="" />
         </div>
 
         <div id={styles.conteudo} className={ scrolls ? styles.show : styles.hidden } >
-            <h1>Sobre mim</h1>
+            <h1 className={styles.displayBlock} >Sobre mim</h1>
             <p>
                 Atualmente estou no terceiro período de Analise 
                 e Desenvolvimento de Sistemas na Faculdade Estácio, estou extremamente animado para embarcar

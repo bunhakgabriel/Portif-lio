@@ -3,7 +3,6 @@
 .habilidades{
     border: 0px solid red;
     margin: 100px auto;
-    display: none;
 }
 
 .habilidades h1{
@@ -86,3 +85,22 @@
 .habilidadesIconsDiv :nth-child(8){
     transition-delay: 2000ms;
 }   
+
+@media (max-width: 920px){
+
+    .habilidades h1{ margin-bottom: 50px; }
+    .habilidadesIconsDiv{ width: 100vw; }
+
+}
+
+@media (max-width: 380px){
+
+    .habilidades h1{ margin-bottom: 30px; }
+    .mongoDB{ width: 130px; }
+
+    .habilidadesIcons{
+        font-size: 7em;
+        width: 130px;
+    }
+
+}

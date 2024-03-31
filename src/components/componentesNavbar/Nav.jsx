@@ -48,6 +48,7 @@ const Nav = () => {
         </button>
     </header>
 
+    {/* 
     <header className={ scrolls ? styles.visible : styles.invisible }>
         <h1 className={styles.titulo} >
             Gabriel B<span className={styles.title} >{'{}'}</span>nhak
@@ -64,6 +65,7 @@ const Nav = () => {
             <FaBars className={styles.menuHamburguer} />
         </button>
     </header>
+    */}
 
     <div>
         <ul id={styles.ulHamburguer} className={ menu ? styles.showMenuHamburguer : styles.hiddenMenuHamburguer } >
