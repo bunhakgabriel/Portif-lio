@@ -1,7 +1,6 @@
 #projetos{
     padding: 10px;
     margin-top: 150px;
-    display: none;
 }
 
 #projetos h1{
@@ -26,8 +25,6 @@
 #secretWordProject{
     margin-left: 30%;
 }
-
-
 
 #financasProject,
 #spotifyProject,
@@ -138,4 +135,101 @@
     filter: blur(0px);
     transform: translateX(0%);
     transition: 1s;
+}
+
+@media (max-width: 910px){
+
+    #financasProject,
+    #spotifyProject,
+    #secretWordProject,
+    #agendaProject{
+        padding: 20px;
+        width: 95%;
+        column-gap: 20px;
+    }
+
+}
+
+@media (max-width: 750px){
+
+    #financasProject,
+    #spotifyProject,
+    #secretWordProject,
+    #agendaProject{
+        flex-direction: column;
+        row-gap: 20px;
+        align-items: center;
+        margin: 80px auto;
+    }
+
+    .financasImg,
+    .spotifyImg,
+    .secretWordImg,
+    .agendaImg{
+        width: 350px;
+        height: 250px;
+    }
+
+    .conteudoFinancas,
+    .conteudoSpotify,
+    .conteudoSecretWord,
+    .conteudoAgenda{
+        text-align: center;
+        width: 350px;
+    }
+
+}
+
+@media (max-width: 400px){
+
+    #financasProject,
+    #spotifyProject,
+    #secretWordProject,
+    #agendaProject{
+        padding: 15px;
+        margin: 40px auto;
+    }
+
+    #projetos{
+        padding: 0;
+    }
+ 
+    .financasImg,
+    .spotifyImg,
+    .secretWordImg,
+    .agendaImg{
+        width: 100%;
+        height: 200px;
+    }
+
+    .conteudoFinancas,
+    .conteudoSpotify,
+    .conteudoSecretWord,
+    .conteudoAgenda{
+        width: 100%;
+        font-size: 0.9em;
+    }
+
+    .icones{
+        font-size: 1.4em;
+    }
+
+    .deploy a{
+        padding: 6px;
+        height: 40px;
+        font-size: 1.1em;
+    }
+
+}
+
+@media (max-width: 400px){
+
+    .financasImg,
+    .spotifyImg,
+    .secretWordImg,
+    .agendaImg{
+        width: 100%;
+        height: 170px;
+    }
+
 }

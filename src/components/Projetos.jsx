@@ -49,7 +49,9 @@ const Projetos = () => {
                 </div>
                 <div className={styles.deploy} >
                     <a href="https://financasprojectsite.netlify.app/">Vizualizar</a>
-                    <FontAwesomeIcon icon={faSquareGithub} size="2xl" />
+                    <a href="https://github.com/bunhakgabriel/Projeto-Bootstrap">
+                        <FontAwesomeIcon style={{width:'100%', height:'100%'}} icon={faSquareGithub} size="2xl" />
+                    </a>
                 </div>
 
             </div>
@@ -76,7 +78,9 @@ const Projetos = () => {
 
                 <div className={styles.deploy} >
                     <a href="https://spotifyprojectsite.netlify.app/">Vizualizar</a>
-                    <FontAwesomeIcon icon={faSquareGithub} size="2xl" />
+                    <a href="">
+                        <FontAwesomeIcon style={{width:'100%', height:'100%'}} icon={faSquareGithub} size="2xl" />
+                    </a>
                 </div>
 
             </div>
@@ -105,7 +109,9 @@ const Projetos = () => {
 
                 <div className={styles.deploy} >
                     <a href="https://spotifyprojectsite.netlify.app/">Vizualizar</a>
-                    <FontAwesomeIcon icon={faSquareGithub} size="2xl" />
+                    <a href="">
+                        <FontAwesomeIcon style={{width:'100%', height:'100%'}} icon={faSquareGithub} size="2xl" />
+                    </a>
                 </div>
 
             </div>
@@ -132,8 +138,10 @@ const Projetos = () => {
                 </div>
 
                 <div className={styles.deploy} >
-                    <a href="https://spotifyprojectsite.netlify.app/">Vizualizar</a>
-                    <FontAwesomeIcon icon={faSquareGithub} size="2xl" />
+                    <a href="https://secret-word-bice.vercel.app/">Vizualizar</a>
+                    <a href="https://github.com/bunhakgabriel/SecretWord">
+                        <FontAwesomeIcon style={{width:'100%', height:'100%'}} icon={faSquareGithub} size="2xl" />
+                    </a>
                 </div>
 
             </div>

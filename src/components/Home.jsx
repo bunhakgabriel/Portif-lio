@@ -32,14 +32,18 @@ const Home = () => {
         </h1>
 
         <div className={styles.redesSociais} >
-          <div className={styles.containerIcons} >
-            <FontAwesomeIcon icon={faSquareGithub} size="2xl" className={styles.icons} />
-            <p>GitHub</p>
-          </div>
-          <div className={styles.containerIcons} >
-            <FontAwesomeIcon icon={faLinkedin} size="2xl" className={styles.icons} />
-            <p>Linkedin</p>
-          </div>
+          <a href="https://github.com/bunhakgabriel">
+            <div className={styles.containerIcons} >
+                <FontAwesomeIcon icon={faSquareGithub} size="2xl" className={styles.icons} />
+                <p>GitHub</p>
+            </div>
+          </a>
+          <a href="https://www.linkedin.com/in/gabriel-de-camargo-bunhak-a1751a1b1/">
+            <div className={styles.containerIcons} >
+                <FontAwesomeIcon icon={faLinkedin} size="2xl" className={styles.icons} />
+                <p>Linkedin</p>
+            </div>
+          </a>
         </div>
 
     </section>
