@@ -17,7 +17,7 @@ const Habilidades = () => {
     })
 
   return (
-    <section className={styles.habilidades} >
+    <section id='sectionHabilidades' className={styles.habilidades} >
         <h1 className={ scroll ? styles.iconShow : styles.iconHidden } >Habilidades</h1>
 
         <div className={styles.habilidadesIconsDiv} >

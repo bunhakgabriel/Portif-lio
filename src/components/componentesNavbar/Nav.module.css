@@ -6,6 +6,10 @@
     box-sizing: border-box;
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
 header{
     background-color: white;
     display: flex;
@@ -62,6 +66,10 @@ h1{
     margin-right: 25px;
 }
 
+.ulMenu a:hover{
+    color: crimson;
+}
+
 #ulHamburguer{
     background-color: white;
     color: black;
@@ -72,6 +80,7 @@ h1{
     padding-top: 30px;
     height: 400px;
     border-bottom: 1px solid black;
+    z-index: 10;
 }
 
 #ulHamburguer li{

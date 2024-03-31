@@ -13,15 +13,15 @@ const SobreMin = () => {
   })
 
   return (
-    <section id={styles.sobreMin} className={ scrolls ? styles.show : styles.hidden } >
+    <section id='sobreMin' className={ scrolls ? styles.showSection : styles.hidden } >
 
         <h1 className={styles.displayNone} >Sobre mim</h1>
 
-        <div id={styles.imagem} className={ scrolls ? styles.show : styles.hidden } >
+        <div id={styles.imagem} className={ scrolls ? styles.showImg : styles.hidden } >
             <img src="./sobreMin.png" alt="" />
         </div>
 
-        <div id={styles.conteudo} className={ scrolls ? styles.show : styles.hidden } >
+        <div id={styles.conteudo} className={ scrolls ? styles.showConteudo : styles.hidden } >
             <h1 className={styles.displayBlock} >Sobre mim</h1>
             <p>
                 Atualmente estou no terceiro período de Analise 

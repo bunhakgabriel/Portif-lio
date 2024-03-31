@@ -8,7 +8,7 @@ import { faSquareGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons'
 
 const Home = () => {
   return (<>
-    <section className={styles.home} >
+    <section id='sectionHome' className={styles.home} >
 
         <div className={styles.avatarMobile} >
           <img src="./sobreMin.png" alt="" />

@@ -28,7 +28,7 @@ const Projetos = () => {
     })
 
   return (
-    <section id={styles.projetos} >
+    <section id='sectionProjetos' className={styles.projetos} >
         <h1>Projetos</h1>
 
         <div id={styles.financasProject} className={ scroll0 ? styles.projectRightShow : styles.projectRightHidden } >
@@ -58,7 +58,7 @@ const Projetos = () => {
 
         </div>
 
-        <div id={styles.spotifyProject} className={ scroll1 ? styles.projectLeftShow : styles.projectLeftHidden } >
+        <div id={styles.spotifyProject} className={ scroll1 ? styles.projectRightShow : styles.projectRightHidden } >
             <div className={styles.spotifyImg} >
                 <img src="./spotify.jpeg" alt="" />
             </div>
@@ -117,7 +117,7 @@ const Projetos = () => {
             </div>
         </div>
 
-        <div id={styles.secretWordProject} className={ scroll3 ? styles.projectLeftShow : styles.projectLeftHidden } >
+        <div id={styles.secretWordProject} className={ scroll3 ? styles.projectRightShow : styles.projectRightHidden } >
             <div className={styles.secretWordImg} >
                 <img src="./secretWord.jpeg" alt="" />
             </div>

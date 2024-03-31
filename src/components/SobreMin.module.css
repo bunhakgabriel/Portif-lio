@@ -1,13 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&family=Hind:wght@300;400;500;600;700&family=Madimi+One&family=Nanum+Gothic+Coding&family=Ojuju:wght@200..800&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
 
 #sobreMin{
-    box-shadow: 2px 2px 4px black;
-    display: flex;
-    justify-content: space-around;
-    align-items: start;
-    width: 80%;
-    margin: 10px auto 100px auto;
-    height: 500px;
+
 }
 
 #imagem{
@@ -47,23 +41,45 @@ h1.displayNone{
     transition: all 2s;
 }
 
-.show{
+.showSection{
+    box-shadow: 2px 2px 4px black;
+    display: flex;
+    justify-content: space-around;
+    align-items: start;
+    width: 80%;
+    margin: 10px auto 100px auto;
+    height: 500px;
     opacity: 1;
     filter: blur(0px);
     transform: translateX(0);
     transition: all 2s;
 }
 
+.showImg{
+    opacity: 1;
+    filter: blur(0px);
+    transform: translateX(0);
+    transition: all 2s;
+}
+
+.showConteudo{
+    opacity: 1;
+    filter: blur(0px);
+    transform: translateX(0);
+    transition: all 2s;
+}
+
+
 @media (max-width: 1235px){
 
-    #sobreMin{ width: 90%; }
+    .showSection{ width: 90%; }
 
 }
 
 @media (max-width: 992px){
 
     h1.displayBlock{ display: none; }
-    #sobreMin{ width: 85%; }
+    .showSection{ width: 85%; }
 
     #imagem{ 
         width: 350px; 
@@ -75,7 +91,7 @@ h1.displayNone{
         font-size: 3em;
     }
 
-    #sobreMin{
+    .showSection{
         padding-top: 30px;
         flex-direction: column;
         align-items: center;
@@ -109,7 +125,7 @@ h1.displayNone{
 
 @media (max-width: 475px){
 
-    #sobreMin{ width: 95%; }
+    .showSection{ width: 95%; }
     #imagem{ display: none;} 
     h1.displayNone{ font-size: 2em; }
 
