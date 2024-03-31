@@ -40,7 +40,7 @@ const Nav = () => {
             <li><a href="#sobreMin">Sobre min</a></li>
             <li><a href="#sectionHabilidades">Habilidades</a></li>
             <li><a href="#sectionProjetos">Projetos</a></li>
-            <li>Contato</li>
+            <li><a href="#sectionContato">Contato</a></li>
         </ul>
 
         <button className={styles.navIcon} onClick={ () => showMenu() } >
@@ -73,7 +73,7 @@ const Nav = () => {
             <li><a href="#sobreMin">Sobre min</a></li>
             <li><a href="#sectionHabilidades">Habilidades</a></li>
             <li><a href="#sectionProjetos">Projetos</a></li>
-            <li>Contato</li>
+            <li><a href="#sectionContato">Contato</a></li>
         </ul>
     </div>
     

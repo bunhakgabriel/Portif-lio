@@ -78,7 +78,7 @@ const Projetos = () => {
 
                 <div className={styles.deploy} >
                     <a href="https://spotifyprojectsite.netlify.app/">Vizualizar</a>
-                    <a href="">
+                    <a href="https://github.com/bunhakgabriel/CloneSpotify">
                         <FontAwesomeIcon style={{width:'100%', height:'100%'}} icon={faSquareGithub} size="2xl" />
                     </a>
                 </div>
@@ -108,8 +108,8 @@ const Projetos = () => {
                 </div>
 
                 <div className={styles.deploy} >
-                    <a href="https://spotifyprojectsite.netlify.app/">Vizualizar</a>
-                    <a href="">
+                    <a href="https://agenda-node-o4eq.onrender.com/">Vizualizar</a>
+                    <a href="https://github.com/bunhakgabriel/ContactConect">
                         <FontAwesomeIcon style={{width:'100%', height:'100%'}} icon={faSquareGithub} size="2xl" />
                     </a>
                 </div>

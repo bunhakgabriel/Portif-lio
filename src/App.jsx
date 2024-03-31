@@ -6,6 +6,7 @@ import Nav from './components/componentesNavbar/Nav'
 import SobreMin from './components/SobreMin'
 import Habilidades from './components/Habilidades'
 import Projetos from './components/Projetos'
+import Contato from './components/Contato'
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       <SobreMin /> 
       <Habilidades />
       <Projetos />
+      <Contato />
     </div>
   )
 }

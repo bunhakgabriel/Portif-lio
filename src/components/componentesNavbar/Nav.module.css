@@ -12,6 +12,7 @@ html{
 
 header{
     background-color: white;
+    background-color: #A4A4A4;
     display: flex;
     justify-content: space-between;
     padding: 20px 130px;
@@ -32,6 +33,7 @@ header.invisible{
 header.visible{
     position: fixed;
     background-color: white;
+    background-color: #A4A4A4;
     color: black;
     transform: translateY(0px);
     transition: 1.5s;
@@ -49,6 +51,7 @@ h1{
 .title{
     color: black;
     color: crimson;
+    color: white;
 }
 
 .ulMenu{
@@ -66,17 +69,24 @@ h1{
     margin-right: 25px;
 }
 
+.ulMenu a{
+    color: white;
+}
+
 .ulMenu a:hover{
     color: crimson;
+    color: white;
+    color: black;
 }
 
 #ulHamburguer{
     background-color: white;
+    background-color: #A4A4A4;
     color: black;
     list-style: none;
     width: 100vw;
     position: fixed;
-    margin-top: 65px;
+    margin-top: 70px;
     padding-top: 30px;
     height: 400px;
     border-bottom: 1px solid black;
@@ -113,6 +123,7 @@ h1{
 
 .menuHamburguer{
     background-color: white;
+    background-color: #A4A4A4;
     border: 0px solid white;
     width: 40px;
     height: 40px;
