@@ -38,7 +38,7 @@ h1.displayNone{
     opacity: 0;
     filter: blur(15px);
     transform: translateX(-100%);
-    transition: all 2s;
+    transition: all 1.5s;
 }
 
 .showSection{
@@ -52,7 +52,7 @@ h1.displayNone{
     opacity: 1;
     filter: blur(0px);
     transform: translateX(0);
-    transition: all 2s;
+    transition: all 1.5s;
 }
 
 
