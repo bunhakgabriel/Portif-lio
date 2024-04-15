@@ -123,7 +123,7 @@
 .projectRightShow{
     filter: blur(0px);
     transform: translateX(0%);
-    transition: 1s;
+    transition: all 2.2s;
 }
 
 .projectLeftHidden{
@@ -134,7 +134,7 @@
 .projectLeftShow{
     filter: blur(0px);
     transform: translateX(0%);
-    transition: 1s;
+    transition: all 2.2s;
 }
 
 @media (max-width: 910px){

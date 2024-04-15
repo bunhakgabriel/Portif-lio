@@ -55,20 +55,6 @@ h1.displayNone{
     transition: all 2s;
 }
 
-.showImg{
-    opacity: 1;
-    filter: blur(0px);
-    transform: translateX(0);
-    transition: all 2s;
-}
-
-.showConteudo{
-    opacity: 1;
-    filter: blur(0px);
-    transform: translateX(0);
-    transition: all 2s;
-}
-
 
 @media (max-width: 1235px){
 

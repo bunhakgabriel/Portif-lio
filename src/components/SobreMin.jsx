@@ -17,11 +17,11 @@ const SobreMin = () => {
 
         <h1 className={styles.displayNone} >Sobre mim</h1>
 
-        <div id={styles.imagem} className={ scrolls ? styles.showImg : styles.hidden } >
+        <div id={styles.imagem} >
             <img src="./sobreMin.png" alt="" />
         </div>
 
-        <div id={styles.conteudo} className={ scrolls ? styles.showConteudo : styles.hidden } >
+        <div id={styles.conteudo} >
             <h1 className={styles.displayBlock} >Sobre mim</h1>
             <p>
                 Atualmente estou no terceiro período de Analise 
