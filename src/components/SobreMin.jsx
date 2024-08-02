@@ -24,13 +24,13 @@ const SobreMin = () => {
         <div id={styles.conteudo} >
             <h1 className={styles.displayBlock} >Sobre mim</h1>
             <p>
-                Atualmente estou no terceiro período de Analise 
-                e Desenvolvimento de Sistemas na Faculdade Estácio, estou extremamente animado para embarcar
-                minha jornada como desenvolvedor front-end, atualmente busco minha primeira
-                experiência na área. Durante meu aprendizado desenvolvi habilidades sólidas
-                em HTML, CSS, JavaScript, React, e também possuo conhecimento em algumas
-                ferramentas Back-end como Node Js, Java (conhecimento acadêmico) e MongoDB.
-                Possuo experiência em projetos acadêmicos, projetos de minha autoria e freelances.
+                Atualmente estou no quarto período de Analise 
+                e Desenvolvimento de Sistemas na Faculdade Estácio, sou extremamente apaixonado pela
+                programação e atualmente estou estagiando como desenvolvedor Full-Stack 
+                Angular e Java. Possuo habilidades sólidas
+                em HTML, CSS, JavaScript, TypeScript, Angular, e também possuo conhecimento em algumas
+                ferramentas Back-end como Java e PostgreSql.
+                Além do Estágio possuo experiência em projetos acadêmicos, projetos de minha autoria e freelances.
             </p>
         </div>
 

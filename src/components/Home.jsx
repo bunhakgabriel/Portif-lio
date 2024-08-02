@@ -25,7 +25,7 @@ const Home = () => {
             <div>
               <span className={styles.textBlack} >Eu </span> 
               sou Gabriel Bunhak Desenvolvedor 
-              <span className={styles.textBlack} > Front-End</span>
+              <span className={styles.textBlack} > Full-Stack</span>
             </div>
           </Typist>
 

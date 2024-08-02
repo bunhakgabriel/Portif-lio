@@ -35,11 +35,16 @@
     margin-bottom: 10px;
 }
 
-.mongoDB{
-    width: 170px;
+.Typescript{
+    padding: 15px;
+    width: 140px;
     height: 115px;
 }
 
+.Postgresql{
+    width: 170px;
+    height: 115px;
+}
 .iconHidden{
     transform: translateY(-100px);
     opacity: 0;
